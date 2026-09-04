@@ -1,3 +1,5 @@
+FOR DEMO PHOTOS INSPECT Demo.md
+
 # SonarAI — Intelligent Side-Scan Sonar (SSS) Survey Analysis Platform
 
 SonarAI is a production-quality, log-first AI analysis platform designed for processing underwater Side-Scan Sonar (SSS) survey image logs.
