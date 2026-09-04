@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-sonar-950: #060b18;
+  --color-sonar-900: #0b132b;
+  --color-sonar-800: #1c2541;
+  --color-sonar-700: #2a365c;
+  --color-sonar-600: #3a4b7c;
+  --color-sonar-accent: #00f5d4;
+  --color-sonar-cyan: #00bbf9;
+  --color-sonar-amber: #ffb703;
+  --color-sonar-emerald: #10b981;
+  --color-sonar-rose: #f43f5e;
+
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-sonar-950);
+  color: #f8fafc;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B132B;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A365C;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00F5D4;
+}
+
+.sonar-grid-pattern {
+  background-size: 30px 30px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 245, 212, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 245, 212, 0.04) 1px, transparent 1px);
+}

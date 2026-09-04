@@ -1,0 +1,9 @@
+SonarAI PyTorch Model Weights Directory
+======================================
+
+Place your Kaggle-trained PyTorch model checkpoint here:
+FileName: best_ssl_unet_accuracy.pth
+
+When best_ssl_unet_accuracy.pth is placed in this folder, the backend's PyTorchInferenceProvider will automatically attempt to load the model checkpoint for real Side-Scan Sonar segmentation inference.
+
+Current Active Provider: MockInferenceProvider (fallback until model checkpoint is provided).
