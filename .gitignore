@@ -1,6 +1,7 @@
 ﻿# Python
 __pycache__/
 *.py[cod]
+.pytest_cache/
 .venv/
 venv/
 env/
@@ -42,3 +43,6 @@ backend/app/storage/survey_logs_db.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated edge inference outputs
+edge/outputs/
